@@ -42,7 +42,7 @@ public class QuizManager : MonoBehaviour
    {
        Quizpanel.SetActive(false);
        GOPanel.SetActive(true);
-       ScoreTxt.text = score  + "/ "  + totalQuestions;
+       ScoreTxt.text = score  + " / "  + totalQuestions;
    }
 
    public void correct()
